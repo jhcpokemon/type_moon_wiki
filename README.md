@@ -1,1 +1,1 @@
-# type_moon_wiki
+# Type Moon Wiki

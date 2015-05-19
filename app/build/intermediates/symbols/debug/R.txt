@@ -400,7 +400,7 @@ int id about_line 0x7f09004a
 int id about_name 0x7f090048
 int id about_thanks 0x7f09004b
 int id about_version 0x7f090049
-int id action_about 0x7f090054
+int id action_about 0x7f090055
 int id action_bar 0x7f090031
 int id action_bar_activity_content 0x7f090000
 int id action_bar_container 0x7f090030
@@ -417,6 +417,7 @@ int id action_mode_close_button 0x7f090020
 int id activity_chooser_view_content 0x7f090021
 int id always 0x7f090016
 int id beginning 0x7f090013
+int id character_list 0x7f090053
 int id checkbox 0x7f090029
 int id collapseActionView 0x7f090017
 int id container 0x7f090041
@@ -452,7 +453,7 @@ int id progress_horizontal 0x7f090006
 int id radio 0x7f09002b
 int id release_name 0x7f090045
 int id release_pic 0x7f090044
-int id release_recycle_view 0x7f090053
+int id release_recycle_view 0x7f090054
 int id scrimInsetsFrameLayout 0x7f090042
 int id search_badge 0x7f090035
 int id search_bar 0x7f090034
@@ -510,9 +511,11 @@ int layout card_view 0x7f040017
 int layout drawer_row 0x7f040018
 int layout fragment_about 0x7f040019
 int layout fragment_navigation_drawer 0x7f04001a
-int layout recycle_view 0x7f04001b
-int layout support_simple_spinner_dropdown_item 0x7f04001c
-int layout toolbar_default 0x7f04001d
+int layout list_item 0x7f04001b
+int layout list_view 0x7f04001c
+int layout recycle_view 0x7f04001d
+int layout support_simple_spinner_dropdown_item 0x7f04001e
+int layout toolbar_default 0x7f04001f
 int menu main 0x7f0d0000
 int mipmap ic_launcher 0x7f030000
 int string abc_action_bar_home_description 0x7f0b0000

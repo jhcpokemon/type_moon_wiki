@@ -15,7 +15,7 @@ public class NavigationItem {
         mDrawable = drawable;
     }
 
-    public NavigationItem(String text){
+    public NavigationItem(String text) {
         mText = text;
     }
 

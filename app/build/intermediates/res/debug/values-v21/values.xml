@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-MoonWiki/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-Moon-Wiki/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -17,7 +17,7 @@
         <item name="android:windowBackground">@color/myWindowBackground</item>
         <item name="android:windowContentTransitions">true</item>
     </style>
-    <!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-MoonWiki/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v21/values.xml -->
+    <!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-Moon-Wiki/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v21/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
@@ -308,13 +308,13 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
-    <!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-MoonWiki/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-Moon-Wiki/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="spinBars">true</item>
         <item name="color">@android:color/white</item>
     </style>
-    <!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-MoonWiki/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v21/values.xml -->
+    <!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-Moon-Wiki/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v21/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme.Material">
         <item name="android:windowNoTitle">true</item>
@@ -332,7 +332,7 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
-    <!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-MoonWiki/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-Moon-Wiki/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="ToolBarStyle" parent="">
         <item name="android:elevation">@dimen/toolbar_elevation</item>

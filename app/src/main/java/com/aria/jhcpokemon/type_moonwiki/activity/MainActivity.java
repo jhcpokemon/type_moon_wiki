@@ -24,11 +24,11 @@ public class MainActivity extends ActionBarActivity
      */
     private NavigationDrawerFragment mNavigationDrawerFragment;
     private Toolbar mToolbar;
-    private final int RELEASE_LIST_TAG = 0;
-    private final int CHARACTER_LIST_TAG = 1;
-    private final int CAL_IMG_TAG = 2;
-    private final int ABOUT_TAG = 3;
-    private int CURRENT_TAG = 0;
+    public static final int RELEASE_LIST_TAG = 0;
+    public static final int CHARACTER_LIST_TAG = 1;
+    public static final int CAL_IMG_TAG = 2;
+    public static final int ABOUT_TAG = 3;
+    public static int CURRENT_TAG = 0;
     private String pass_release_id;
 
     @Override
@@ -50,8 +50,10 @@ public class MainActivity extends ActionBarActivity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
-        if(position == 0){
+        if (position == 0) {
             queryReleases();
+        } else {
+            queryCharacters();
         }
     }
 
@@ -60,9 +62,9 @@ public class MainActivity extends ActionBarActivity
     public void onBackPressed() {
         if (mNavigationDrawerFragment.isDrawerOpen())
             mNavigationDrawerFragment.closeDrawer();
-        else if(CURRENT_TAG != RELEASE_LIST_TAG){
+        else if (CURRENT_TAG != RELEASE_LIST_TAG) {
             queryReleases();
-        }else {
+        } else {
             finish();
         }
     }
@@ -103,12 +105,16 @@ public class MainActivity extends ActionBarActivity
         return super.onOptionsItemSelected(item);
     }
 
-    public void queryReleases(){
+    public void queryReleases() {
         Fragment fragment = getFragmentManager().findFragmentByTag(ReleasesListFragment.TAG);
         if (fragment == null) {
             fragment = new ReleasesListFragment();
         }
-        getFragmentManager().beginTransaction().replace(R.id.container,fragment,ReleasesListFragment.TAG).commit();
+        getFragmentManager().beginTransaction().replace(R.id.container, fragment, ReleasesListFragment.TAG).commit();
         CURRENT_TAG = RELEASE_LIST_TAG;
+    }
+
+    public void queryCharacters() {
+
     }
 }

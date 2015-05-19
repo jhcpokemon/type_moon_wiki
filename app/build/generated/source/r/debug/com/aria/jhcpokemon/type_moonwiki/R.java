@@ -1467,7 +1467,7 @@ containing a value of this type.
         public static final int about_name=0x7f090048;
         public static final int about_thanks=0x7f09004b;
         public static final int about_version=0x7f090049;
-        public static final int action_about=0x7f090054;
+        public static final int action_about=0x7f090055;
         public static final int action_bar=0x7f090031;
         public static final int action_bar_activity_content=0x7f090000;
         public static final int action_bar_container=0x7f090030;
@@ -1484,6 +1484,7 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090016;
         public static final int beginning=0x7f090013;
+        public static final int character_list=0x7f090053;
         public static final int checkbox=0x7f090029;
         public static final int collapseActionView=0x7f090017;
         public static final int container=0x7f090041;
@@ -1519,7 +1520,7 @@ containing a value of this type.
         public static final int radio=0x7f09002b;
         public static final int release_name=0x7f090045;
         public static final int release_pic=0x7f090044;
-        public static final int release_recycle_view=0x7f090053;
+        public static final int release_recycle_view=0x7f090054;
         public static final int scrimInsetsFrameLayout=0x7f090042;
         public static final int search_badge=0x7f090035;
         public static final int search_bar=0x7f090034;
@@ -1581,9 +1582,11 @@ containing a value of this type.
         public static final int drawer_row=0x7f040018;
         public static final int fragment_about=0x7f040019;
         public static final int fragment_navigation_drawer=0x7f04001a;
-        public static final int recycle_view=0x7f04001b;
-        public static final int support_simple_spinner_dropdown_item=0x7f04001c;
-        public static final int toolbar_default=0x7f04001d;
+        public static final int list_item=0x7f04001b;
+        public static final int list_view=0x7f04001c;
+        public static final int recycle_view=0x7f04001d;
+        public static final int support_simple_spinner_dropdown_item=0x7f04001e;
+        public static final int toolbar_default=0x7f04001f;
     }
     public static final class menu {
         public static final int main=0x7f0d0000;

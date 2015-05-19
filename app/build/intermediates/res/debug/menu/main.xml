@@ -1,4 +1,4 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/action_about" android:title="@string/about" />
 </menu>
-<!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-MoonWiki/app/src/main/res/menu/main.xml -->
+<!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-Moon-Wiki/app/src/main/res/menu/main.xml -->

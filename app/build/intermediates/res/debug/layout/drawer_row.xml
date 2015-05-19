@@ -7,4 +7,4 @@
         android:textSize="14sp" android:gravity="center_vertical"
         android:textColor="@color/myTextPrimaryColor" />
 </LinearLayout>
-<!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-MoonWiki/app/src/main/res/layout/drawer_row.xml -->
+<!-- From: file:/C:/Users/pokemon/AndroidStudioProjects/Type-Moon-Wiki/app/src/main/res/layout/drawer_row.xml -->

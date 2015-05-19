@@ -22,14 +22,15 @@ public class AboutFragment extends Fragment {
     TextView aboutThanks;
     View v = null;
     public static final String TAG = "about_fragment_atg";
+
     @Override
-    public View onCreateView(LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState){
-        v = inflater.inflate(R.layout.fragment_about,container,false);
-        aboutImg = (ImageView)v.findViewById(R.id.about_img);
-        about_line = (ImageView)v.findViewById(R.id.about_line);
-        aboutName = (TextView)v.findViewById(R.id.about_name);
-        aboutVersion = (TextView)v.findViewById(R.id.about_version);
-        aboutThanks = (TextView)v.findViewById(R.id.about_thanks);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        v = inflater.inflate(R.layout.fragment_about, container, false);
+        aboutImg = (ImageView) v.findViewById(R.id.about_img);
+        about_line = (ImageView) v.findViewById(R.id.about_line);
+        aboutName = (TextView) v.findViewById(R.id.about_name);
+        aboutVersion = (TextView) v.findViewById(R.id.about_version);
+        aboutThanks = (TextView) v.findViewById(R.id.about_thanks);
         return v;
     }
 }

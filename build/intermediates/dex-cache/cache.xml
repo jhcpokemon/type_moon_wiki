@@ -2,74 +2,53 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\libs\fastjson-1.1.45.android-sources.jar"
+        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="5fe0e3ba1c2c77b88ddff00c6099287828e49a44">
-        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\debug\fastjson-1.1.45.android-sources-953dc557a2bb80e7540a053c411dfb6ab9642816.jar" />
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\release\classes-b3a39a8f11c6df6b78b2d69977e84abdd52345e7.jar" />
     </item>
     <item
-        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\libs\fastjson-1.1.45.android-javadoc.jar"
+        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="bf659ba4f560146b837339d89b47dd89276d5641">
-        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\debug\fastjson-1.1.45.android-javadoc-aecc420fac8afacee4441492c39606643f0f93d0.jar" />
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\release\classes-42ca33f475b8ede3ff73b52f09e5f36f975ea8c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\release\classes-5e9d03d76921329c9439fd70b65b166ef3fee13b.jar" />
     </item>
     <item
         jar="C:\Users\pokemon\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-93bdfb3473bc136906f12ad51e5225dd15589668.jar" />
-    </item>
-    <item
-        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\libs\fastjson-1.1.45.android.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4d5140a0c8f5e4d0f263cac44dbac1019a908474">
-        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\debug\fastjson-1.1.45.android-675e96348c0065d7ced18d439c6ecef280d48ae5.jar" />
+        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\release\support-annotations-22.0.0-93bdfb3473bc136906f12ad51e5225dd15589668.jar" />
     </item>
     <item
         jar="C:\Users\pokemon\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\debug\gson-2.3.1-129036eabf5c8af2039cf59236599a2c83e52d72.jar" />
+        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\release\gson-2.3.1-129036eabf5c8af2039cf59236599a2c83e52d72.jar" />
     </item>
     <item
-        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c6d79137693d494dee16372d3921f919eb724ced">
-        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\debug\classes-4d0a80d8c7e3862d0b40fb8e159fbea990ff085b.jar" />
-    </item>
-    <item
-        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-94675eff828b33d537ee98a401b5a4d6dba5cb30.jar" />
+        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\release\internal_impl-22.0.0-e9ac5fcb05edb66b81a7eac2aa1405f0b708a1f0.jar" />
     </item>
     <item
-        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\debug\classes-fc56672d823e7d3f6b093117a48a07ab9a8ac12d.jar" />
-    </item>
-    <item
-        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.0.0\classes.jar"
+        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
-        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\debug\classes-240717f6d89a7d6605b37e9656d6a0267dbda141.jar" />
-    </item>
-    <item
-        jar="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\debug\classes-70a017d8beda7142fbab0da4e97e15b4cfececa3.jar" />
+        <dex dex="C:\Users\pokemon\AndroidStudioProjects\Type-Moon-Wiki\app\build\intermediates\pre-dexed\release\classes-7284ea8ce458afd63c7e16ba09770641ce0d2176.jar" />
     </item>
 
 </items>

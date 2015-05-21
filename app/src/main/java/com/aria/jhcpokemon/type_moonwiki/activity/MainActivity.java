@@ -24,12 +24,6 @@ public class MainActivity extends ActionBarActivity
      */
     private NavigationDrawerFragment mNavigationDrawerFragment;
     private Toolbar mToolbar;
-    public static final int RELEASE_LIST_TAG = 0;
-    public static final int CHARACTER_LIST_TAG = 1;
-    public static final int CAL_IMG_TAG = 2;
-    public static final int ABOUT_TAG = 3;
-    public static int CURRENT_TAG = 0;
-    private String pass_release_id;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +38,8 @@ public class MainActivity extends ActionBarActivity
         mNavigationDrawerFragment.setup(R.id.fragment_drawer, (DrawerLayout) findViewById(R.id.drawer), mToolbar);
         // populate the navigation drawer
         mNavigationDrawerFragment.setUserData("jhcpokemon", "jhc851267@gmail.com", BitmapFactory.decodeResource(getResources(), R.drawable.avatar));
+        if (mNavigationDrawerFragment.isDrawerOpen())
+            mNavigationDrawerFragment.closeDrawer();
         queryReleases();
     }
 
@@ -53,19 +49,20 @@ public class MainActivity extends ActionBarActivity
         if (position == 0) {
             queryReleases();
         } else {
-            queryCharacters();
+            showChronology();
         }
     }
 
 
     @Override
     public void onBackPressed() {
+        int count = getFragmentManager().getBackStackEntryCount();
         if (mNavigationDrawerFragment.isDrawerOpen())
             mNavigationDrawerFragment.closeDrawer();
-        else if (CURRENT_TAG != RELEASE_LIST_TAG) {
-            queryReleases();
+        else if (count == 0) {
+            super.onBackPressed();
         } else {
-            finish();
+            getFragmentManager().popBackStack();
         }
     }
 
@@ -97,8 +94,7 @@ public class MainActivity extends ActionBarActivity
             if (fragment == null) {
                 fragment = new AboutFragment();
             }
-            getFragmentManager().beginTransaction().replace(R.id.container, fragment, AboutFragment.TAG).commit();
-            CURRENT_TAG = ABOUT_TAG;
+            getFragmentManager().beginTransaction().replace(R.id.container, fragment, AboutFragment.TAG).addToBackStack(AboutFragment.TAG).commit();
             return true;
         }
 
@@ -111,10 +107,7 @@ public class MainActivity extends ActionBarActivity
             fragment = new ReleasesListFragment();
         }
         getFragmentManager().beginTransaction().replace(R.id.container, fragment, ReleasesListFragment.TAG).commit();
-        CURRENT_TAG = RELEASE_LIST_TAG;
     }
 
-    public void queryCharacters() {
-
-    }
+    public void showChronology(){}
 }

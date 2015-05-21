@@ -19,7 +19,6 @@ import com.aria.jhcpokemon.type_moonwiki.util.Util;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -85,7 +84,7 @@ public class ReleasesListFragment extends Fragment {
                         fragment = new CharacterListFragment();
                         fragment.setArguments(args);
                     }
-                    getActivity().getFragmentManager().beginTransaction().replace(R.id.container, fragment, CharacterListFragment.TAG).commit();
+                    getActivity().getFragmentManager().beginTransaction().replace(R.id.container, fragment, CharacterListFragment.TAG).addToBackStack(CharacterListFragment.TAG).commit();
                 }
             });
             return new ViewHolder(v);

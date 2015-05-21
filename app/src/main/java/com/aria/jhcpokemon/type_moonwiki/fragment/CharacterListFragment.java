@@ -1,9 +1,7 @@
 package com.aria.jhcpokemon.type_moonwiki.fragment;
 
 import android.app.Fragment;
-import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +11,6 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.aria.jhcpokemon.type_moonwiki.R;
-import com.aria.jhcpokemon.type_moonwiki.activity.MainActivity;
 import com.aria.jhcpokemon.type_moonwiki.model.Character;
 import com.aria.jhcpokemon.type_moonwiki.util.Util;
 import com.google.gson.Gson;
@@ -46,7 +43,6 @@ public class CharacterListFragment extends Fragment {
                 Toast.makeText(getActivity().getApplicationContext(),characters.get(i),Toast.LENGTH_SHORT).show();
             }
         });
-        MainActivity.CURRENT_TAG = MainActivity.CHARACTER_LIST_TAG;
         return view;
     }
 
@@ -65,4 +61,5 @@ public class CharacterListFragment extends Fragment {
         return gson.fromJson(jsonData, new TypeToken<List<Character>>() {
         }.getType());
     }
+
 }
